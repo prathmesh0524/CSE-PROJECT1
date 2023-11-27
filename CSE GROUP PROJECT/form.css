@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-image: url("A\ job\ sign\ up\ b\ 0.png");
+    font-family: Arial,Helvetica,sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    margin-left: 30%;
+}
+#div1{
+    height: 80vh;
+    background-color: rgba(255,255,255,0.76);
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 45px;
+    margin-top: 3%;
+    width:35%;
+    justify-content: center;
+}
+div{
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+h1{
+    text-align: center;
+    color:blue;
+    background-color: burlywood;
+    opacity: 0.8;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+}
+input:focus, textarea:focus, select:focus{
+    background-color: burlywood;
+}
+input[type="submit"]:hover,input[type="reset"]:hover
+{
+    background-color: aquamarine;
+    transform: scale(2.05);
+}

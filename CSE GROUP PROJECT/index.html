@@ -1,0 +1,371 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Resposive Job Portal Website</title>
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">JOB HUNTER</a></h2>
+        <div class="navbar-menu">
+            <a href="#Jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimoni">Testimonial</a>
+            <a href="#blog">Blog</a>
+            <a href="Form.html">Sign In</a>
+            <a href="resume-builder-using-vanilla-javascript-master/resume1.html">Resume</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- header -->
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span>PERFECT JOB</span> <br> EASILY<br> MAKE YOUR <br> RESUME
+        </h1>
+    </header>
+
+    <!-- search -->
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job title or keywords">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    <!-- filter box -->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name="job-level">
+                <option>Job Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" id="job-function" name="job-function">
+                <option>Job Function</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" id="employment" name="employment">
+                <option>Employment Type</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>Locations</option>
+                <option>Remote</option>
+                <option>India</option>
+                <option>USA</option>
+            </select>
+            <select class="filter-select" id="education" name="education">
+                <option>Education</option>
+                <option>High School</option>
+                <option>Bachelor's degree</option>
+                <option>Master's degree</option>
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class="fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full time <i class="fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Financial Tech <i class="fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Entry Level <i class="fa-times-circle"></i>
+            </div>
+        </div>
+    </div>
+    <!-- job Listing-->
+            <section class="job-list" id="Jobs">
+                <div class="job-card">
+                    <div class="job-name">
+                        <img class="job-profile" src="Tesla_logo1.png">
+                        <div class="job-detail">
+                            <h4>Tesla</h4>
+                            <h3>Buisness Intelligence Developer
+                            </h3>
+                            <p>Contact Us: Phone:+91 9846992662 <br> Email:TeslaJobs@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="job-level">
+                        <a class="label-a" href="#">HTML</a>
+                        <a class="label-b" href="#">CSS</a>
+                        <a class="label-c" href="#">Javascript</a>
+                    </div>
+                    <div class="job-posted">
+                        Posted 2 mins ago
+                    </div>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-name">
+                        <img class="job-profile" src="ebay.png">
+                        <div class="job-detail">
+                            <h4>Ebay</h4>
+                            <h3>Business Development</h3>
+                            <p>Contact Us: Phone:+91 9668767781  <br>  Email:EbayJobs@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="job-level">
+                        <a class="label-a" href="#">HTML</a>
+                        <a class="label-b" href="#">CSS</a>
+                        <a class="label-c" href="#">Javascript</a>
+                    </div>
+                    <div class="job-posted">
+                        Posted 2 mins ago
+                    </div>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-name">
+                        <img class="job-profile" src="tata.png">
+                        <div class="job-detail">
+                            <h4>TATA</h4>
+                            <h3>Automobile Services</h3>
+                            <p>Contact Us: Phone:+91 8704279336    <br>  Email:TataJobs@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="job-level">
+                        <a class="label-a" href="#">HTML</a>
+                        <a class="label-b" href="#">CSS</a>
+                        <a class="label-c" href="#">Javascript</a>
+                    </div>
+                    <div class="job-posted">
+                        Posted 2 mins ago
+                    </div>
+                </div>
+                <div class="job-card">
+                    <div class="job-name">
+                        <img class="job-profile" src="youtube.webp">
+                        <div class="job-detail">
+                            <h4>Youtube</h4>
+                            <h3>UI UX Designer</h3>
+                            <p>Contact Us: Phone:+91 9549982221   <br> Email:YoutubeJobs@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="job-level">
+                        <a class="label-a" href="#">HTML</a>
+                        <a class="label-b" href="#">CSS</a>
+                        <a class="label-c" href="#">Javascript</a>
+                    </div>
+                    <div class="job-posted">
+                        Posted an hour  ago
+                    </div>
+                </div>    
+                <div class="job-card">
+                    <div class="job-name">
+                        <img class="job-profile" src="Amazon.png">
+                        <div class="job-detail">
+                            <h4>Amazon</h4>
+                            <h3>Software Engineer</h3>
+                            <p>Contact Us: Phone:+91 6200897833<br>Email:AmazonJobs@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="job-level">
+                        <a class="label-a" href="#">HTML</a>
+                        <a class="label-b" href="#">CSS</a>
+                        <a class="label-c" href="#">Javascript</a>
+                    </div>
+                    <div class="job-posted">
+                        Posted an hour ago
+                    </div>
+                </div>
+                <button class="job-more">More List</button>
+            </section>
+            <!-- join -->
+        <section class="join">
+            <div class="join-detail">
+                <h1 class="section-title">LETS START YOUR NEW JOB WITH US</h1>
+                <P>Sign-in with your gmail and join us for happy proffesional career.</P>
+            </div>
+            <!--<button class="join-button">Join Now</button>-->
+            <a href="Form.html" button class="join-button">Join Now</button></a>
+        </section>
+
+        <!-- featured company-->
+        <section class="featured" id="companies">
+            <h1 class="section-title">Featured Companies</h1>
+            <p>Top Companies For Best Job Options</p>
+            <div class="featured-wrapper">
+                <div class="featured-card">
+                    <img class="featured-image" src="ebay.png">
+                    <p>Ebay</p>
+                    <button class="featured-button"> 25 jobs</button>
+                </div>
+                <div class="featured-card">
+                    <img class="featured-image" src="youtube.webp">
+                    <p>Youtube</p>
+                    <button class="featured-button"> 50 jobs</button>
+                 </div>
+                <div class="featured-card">
+                    <img class="featured-image" src="tata.png">
+                    <p>TATA</p>
+                    <button class="featured-button">30 jo bs</button>
+                </div>
+                <div class="featured-card">
+                    <img class="featured-image" src="Tesla_logo1.png">
+                    <p>Tesla</p>
+                    <button class="featured-button"> 22 jobs</button>
+                </div>
+                <div class="featured-card">
+                    <img class="featured-image" src="google.png">
+                    <p>Google</p>
+                    <button class="featured-button"> 45 jobs</button>
+                </div>
+                <div class="featured-card">
+                    <img class="featured-image" src="facebook.png">
+                    <p>Facebook</p>
+                    <button class="featured-button"> 15 jobs</button>
+                </div>
+                <div class="featured-card">
+                    <img class="featured-image" src="Apple.svg">
+                    <p>Apple</p>
+                    <button class="featured-button"> 9 jobs</button>
+                </div>
+                <div class="featured-card">
+                    <img class="featured-image" src="Amazon.png">
+                    <p>Amazon</p>
+                    <button class="featured-button"> 6 jobs</button>
+                </div>
+            </div>
+        </section>
+        <!-- testtimoni -->
+        <section class="testimoni" id="testimoni">
+            <h1 class="section-title">Testimonial</h1>
+            <p>Lets see what our clients say about us</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>"Fantastic website! User-friendly design, informative content, and a seamless experience."</h3>
+                        <div class="testimoni-pic">
+                            <img src="shreyas.jpg"> 
+                            <p>Shreysh Andhorikar(UI/UX Manager)</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>Best Website Ever Used</h3>
+                        <div class="testimoni-pic">
+                            <img src="aloy.jpg">
+                            <p>Aloy Barbhuiya</p>
+                            <span>Software Development</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>nice web site for finding job and making your Resume</h3>
+                        <div class="testimoni-pic">
+                            <img src="varun-sharma.jpg">
+                            <p>Chucha Yadhav</p>
+                            <span>Front End Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog">
+            <h1 class="section-title">Career Advices</h1>
+            <p>Learn more career tips from company's recruiter</p>
+            <div class="blog-wrapper">
+                <div class="blog-card">
+                    <img class="blog-image" src="enjoywork.jpg">
+                    <div class="blog-detail">
+                        <span>23 Nov 2023</span>
+                        <h4>How to enjoy your work</h4>
+                        <p>"Craft a workspace that sparks joy. Blend comfort, organization, and personal touches for a harmonious environment where creativity and productivity flourish."</p>
+                        <hr class="divider">
+                        <a href="https://www.glassdoor.com/blog/guide/how-to-enjoy-work/" class="blog-more">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img class="blog-image" src="tipsforeview.jpg">
+                    <div class="blog-detail">
+                        <span>24 Nov 2023</span>
+                        <h4>10 Tips for technical interview</h4>
+                        <p>"Speak confidently, showcase skills, and research the company. <br>
+                            First impressions matter—convey enthusiasm and a solution-oriented mindset to leave a lasting impact."</p>
+                        <hr class="divider">
+                        <a href="https://shecancode.io/blog/top-10-technical-interview-tips/" class="blog-more">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img class="blog-image" src="time_managmant.jpg">
+                    <div class="blog-detail">
+                        <span>25 Dec 2023</span>
+                        <h4>Managing Time Effectively </h4>
+                        <p>"Mastering time transforms chaos into achievement. Prioritize,<br>
+                           focus, and meet deadlines—a strategic dance in the rhythm of productivity."</p>
+                        <hr class="divider">
+                        <a href="https://slack.com/intl/en-in/blog/collaboration/mastering-time-management-at-work" class="blog-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-wrapper">
+                <h3>CONTACT</h3>
+                <p>Cont.No. +91 9876762396<br> Gmail:-lovelyprofesionaluni2023@gmail.com</p>
+                <div class="social-media">
+                    <a herf="#"><i class="fab fa-facebook-f"></i></a>
+                    <a herf="#"><i class="fab fa-twitter"></i></a>
+                    <a herf="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a herf="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-wrapper">
+                <h4>Explore</h4>
+                <a href="#">Top Companies</a>
+                <a href="#">Term of Service</a>
+                <a href="#">Podcast</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="footer-wrapper">
+                <h4>About</h4>
+                <a href="#">FAQ</a>
+                <a href="#">Get Inspired</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="footer-wrapper">
+                <h4>Support</h4>
+                <a href="#">Customer Service</a>
+                <a href="#">Trust & Saftey</a>
+                <a href="#">Patnership</a>
+            </div>
+            <div class="footer-wrapper">
+                <h4>Community</h4>
+                <a href="#">Community</a>
+                <a href="#">Invite a Friend</a>
+                <a href="#">Event</a>
+            </div>
+        </footer>
+ 
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
